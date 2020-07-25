@@ -4,10 +4,10 @@ def join_nested_strings(src)
  new_string = ""
   count = 0  # <-- index limit the loop and access the index
   while count < src.length do 
-  binding.pry
     
     element = 0 
     inner_array = src[count]
+  binding.pry
     while element < inner_array.length do 
       
     inner_element=  inner_array[element]
