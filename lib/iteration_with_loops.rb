@@ -6,7 +6,9 @@ def join_nested_strings(src)
     element = 0 
     inner_array = src[count]
     while element < inner_array.length do 
+      
     inner_element=  inner_array[element]
+    
     # new_string += inner_element
     if inner_element.is_a?(String)
     new_string += inner_element
