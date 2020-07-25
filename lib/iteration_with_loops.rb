@@ -10,7 +10,7 @@ def join_nested_strings(src)
     inner_element=  inner_array[element]
     
     # new_string += inner_element
-    if inner_element.is_a?(String)
+    if inner_element.is_a?(String) +
     new_string += inner_element
     end
       element += 1
