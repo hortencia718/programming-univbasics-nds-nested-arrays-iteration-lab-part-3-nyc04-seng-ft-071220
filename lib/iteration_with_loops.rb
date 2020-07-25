@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while element < inner_array.length do 
     inner_element=  inner_array[element]
     new_string += inner_element
-     inner_element._is a?(string)
+     inner_element._is a?("")
       
       
       element += 1
