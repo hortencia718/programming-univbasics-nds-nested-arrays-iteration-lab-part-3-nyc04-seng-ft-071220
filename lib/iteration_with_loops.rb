@@ -1,5 +1,7 @@
 # require 'pry'
 def join_nested_strings(src)
+  
+  binding.pry
  new_string = ""
   count = 0  # <-- index limit the loop and access the index
   while count < src.length do 
