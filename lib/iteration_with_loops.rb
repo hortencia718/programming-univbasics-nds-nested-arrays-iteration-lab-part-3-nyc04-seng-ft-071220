@@ -7,10 +7,10 @@ def join_nested_strings(src)
     
     element = 0 
     inner_array = src[count]
-  binding.pry
     while element < inner_array.length do 
       
     inner_element=  inner_array[element]
+  binding.pry
     
     # new_string += inner_element
     if inner_element.is_a? (String) 
