@@ -16,7 +16,7 @@ def join_nested_strings(src)
     if inner_element.is_a? (String) 
       
     new_string += inner_element + " "# string is here 
-    puts new_string
+    #puts new_string
     end
       element += 1
     end 
