@@ -10,7 +10,7 @@ def join_nested_strings(src)
     new_string += inner_element
     if inner_element._is a?("")
     
-      
+    end
       element += 1
     end 
     
