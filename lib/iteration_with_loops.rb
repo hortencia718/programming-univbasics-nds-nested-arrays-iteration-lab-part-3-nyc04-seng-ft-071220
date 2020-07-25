@@ -1,6 +1,6 @@
 # require 'pry'
 def join_nested_strings(src)
-  
+  binding.pry
  new_string = ""
   count = 0  # <-- index limit the loop and access the index
   while count < src.length do 
@@ -10,7 +10,7 @@ def join_nested_strings(src)
     while element < inner_array.length do 
       
     inner_element=  inner_array[element]
-  binding.pry
+ # binding.pry
     
     # new_string += inner_element
     if inner_element.is_a? (String) 
