@@ -7,6 +7,7 @@ def join_nested_strings(src)
     inner_array = src[count]
     while element < inner_array.length do 
     inner_element=  inner_array[element]
+    
       
       
       element += 1
